@@ -2,9 +2,9 @@ import { describe, it, expect } from "vitest";
 import ChildComponent from "../ChildComponent.vue";
 import { mount } from "@vue/test-utils";
 
-
+//se describe a que componente se le hara las pruebas 
 describe('ChildComponent', () => {
-    it('emite el evento "enviando" con un mensaje cuando se hace click con el boton', async () => {
+    it('Emite el evento "enviando" con un mensaje cuando se hace click con el boton', async () => {
         //montamos el componente
         const wrapper = mount(ChildComponent)
 
