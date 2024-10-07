@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ContadorComponent.vue > El Html se mantiene en las pruebas 1`] = `
+"<div>
+  <h1>Contador : <span id="contador">0</span></h1><button id="aumentar">Aumentar +1 </button><button id="disminuir">Disminuir -1 </button>
+</div>"
+`;
